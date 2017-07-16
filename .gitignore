@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -161,3 +162,7 @@ typings/
 package-lock.json
 db.sqlite3
 
+=======
+*.pyc
+db.sqlite
+>>>>>>> add gitignore
