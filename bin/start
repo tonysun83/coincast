@@ -1,6 +1,10 @@
 #!/bin/bash
 
 # Set environment
+if [ ! -d "env" ]; then
+  ./bin/setup
+fi
+
 if [[ ( -z $VIRTUAL_ENV ) || ( (! -z "$VIRTUAL_ENV") && ( "$VIRTUAL_ENV" != *"coincast/env"* ) ) ]]; then
   echo
   echo "[START] - Activating virtualenv env"
