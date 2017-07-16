@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Clean virtualenv, client dependencies, dist files
+echo "[CLEAN] - Cleaning development files and folders"
+
+rm -rf env node_modules dist
+
+echo "[CLEAN] - Done"

@@ -1,0 +1,27 @@
+{
+  "name": "coincast",
+  "version": "1.0.0",
+  "description": "Cryptocurrency application",
+  "main": "index.js",
+  "scripts": {
+    "start": "./bin/start $@",
+    "setup": "./bin/setup $@",
+    "clean": "./bin/clean $@",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonysun83/coincast.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonysun83/coincast/issues"
+  },
+  "homepage": "https://github.com/tonysun83/coincast#readme",
+  "dependencies": {
+    "webpack": "^3.3.0",
+    "webpack-dev-server": "^2.5.1"
+  }
+}

@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Set environment
+if [[ ( -z $VIRTUAL_ENV ) || ( (! -z "$VIRTUAL_ENV") && ( "$VIRTUAL_ENV" != *"coincast/env"* ) ) ]]; then
+  echo
+  echo "[START] - Activating virtualenv env"
+  source env/bin/activate
+fi
+
+# Run server
+echo "[START] - Starting development server"
+echo
+
+if [ -z "$@" ]; then
+  python manage.py runserver 8080
+else
+  python manage.py runserver $@
+fi

@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Create Virtualenv
+echo "[SETUP] - Creating virtualenv in folder ./env"
+virtualenv env
+source ./env/bin/activate
+
+# Install Python, Server-side dependencies
+echo
+echo "[SETUP] - Installing Server-side dependencies"
+
+pip install -r ./requirements.txt
+
+# Run migrations
+python manage.py migrate
+
+# Install Node, Client-side dependencies
+echo
+echo "[SETUP] - Installing Client-side dependencies"
+
+npm install
+
+echo
+echo "[SETUP] - Done"
