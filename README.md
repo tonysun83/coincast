@@ -7,18 +7,18 @@
 
 ## Setup
 
-``sh
+```sh
 $ npm run setup
 ```
 
 ## Run
 
-``sh
+```sh
 $ npm start
 ```
 
 ## Test
 
-``sh
+```sh
 $ npm test
 ```
