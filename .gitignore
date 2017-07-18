@@ -161,3 +161,6 @@ typings/
 package-lock.json
 
 db.sqlite3
+
+# React bundlers
+assets/bundles/
