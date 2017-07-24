@@ -164,3 +164,6 @@ db.sqlite3
 
 # React bundlers
 assets/bundles/
+
+# webpack stats
+webpack-stats.json
