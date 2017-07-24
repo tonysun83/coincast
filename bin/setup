@@ -14,6 +14,9 @@ pip install -r ./requirements.txt
 # Run migrations
 python manage.py migrate
 
+# Load initial fixtures
+python manage.py loaddata initial_exchanges.json
+
 # Install Node, Client-side dependencies
 echo
 echo "[SETUP] - Installing Client-side dependencies"

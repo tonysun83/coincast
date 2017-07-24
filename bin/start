@@ -16,7 +16,7 @@ echo "[START] - Starting development server"
 echo
 
 if [ -z "$@" ]; then
-  python manage.py runserver 8080
+  python manage.py runserver 3000
 else
   python manage.py runserver $@
 fi

@@ -11,11 +11,19 @@
 $ npm run setup
 ```
 
-## Run
+## Run Django Server
 
 ```sh
 $ npm start
 ```
+_runs on port 3000 for development by default_
+
+## Run Webpack Development Server
+
+```sh
+$ npm run webpack-dev-server
+```
+_runs on port 3001 for development by default_
 
 ## Test
 
